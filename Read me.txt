@@ -1,0 +1,19 @@
+install Python from https://www.python.org/
+
+install Pip use command py get-pip.py
+
+go to the folder and open command prompt(cmd) and redirect to the project folder and type
+pip install -r requirements.txt
+
+if some of the pakages didnt get installed then use pip command and install packages example  
+pip install tensorflow>=1.15.2
+and install all the missing packages 
+
+note:change the dataset directory path at Train_mask_detector.py
+
+Run program trian_mask_detector.py using command 
+python trian_mask_detector.py
+
+wait till the trianing is been done if the processor struck keep pressing enter or space bar key 
+after the machine is been trained then execute detect_mask_video.py file using command 
+python detect_mask_video.py 
